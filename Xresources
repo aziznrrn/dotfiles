@@ -1,0 +1,62 @@
+! Use a nice truetype font and size by default... 
+xterm*faceName: Droid Sans Mono 
+xterm*faceSize: 11
+
+! Every shell is a login shell by default (for inclusion of all necessary environment variables)
+xterm*loginshell: true
+
+! I like a LOT of scrollback...
+xterm*savelines: 16384
+
+! double-click to select whole URLs :D
+xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+! DOS-box colours...
+*.foreground:  #e6d4a3
+*.background:  #1e1e1e
+*.cursorColor: #e6d4a3
+!
+! Black
+*.color0:      #1e1e1e
+*.color8:      #7f7061
+!
+! Red
+*.color1:      #be0f17
+*.color9:      #f73028
+!
+! Green
+*.color2:      #868715
+*.color10:     #aab01e
+!
+! Yellow
+*.color3:      #cc881a
+*.color11:     #f7b125
+!
+! Blue
+*.color4:      #377375
+*.color12:     #719586
+!
+! Magenta
+*.color5:      #a04b73
+*.color13:     #c77089
+!
+! Cyan
+*.color6:      #578e57
+*.color14:     #7db669
+!
+! White
+*.color7:      #978771
+*.color15:     #e6d4a3
+!
+! Bold, Italic, Underline
+*.colorBD:     #ffffff
+!*.colorIT:
+!*.colorUL:
+
+
+! right hand side scrollbar...
+xterm*rightScrollBar: true
+xterm*ScrollBar: true
+
+! stop output to terminal from jumping down to bottom of scroll again
+xterm*scrollTtyOutput: false
