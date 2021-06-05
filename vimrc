@@ -1,12 +1,27 @@
 "___ BASIC CONFIGURATION ___
-set number
 set relativenumber
-set showmode
-syntax on
+set number
+set nohlsearch
+set noerrorbells
+set nowrap
+set smartcase
+set noswapfile
+set nobackup
+set incsearch
+set scrolloff=8
+set colorcolumn=80
+set signcolumn=yes
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set smartindent
+"___ FOR JAVASCRIPT ___
+autocmd Filetype javascript setlocal ts=2 sw=2 sts=2
 
 "___ VIM PLUGIN ___
 call plug#begin('~/.vim/plugged')
-Plug 'morhetz/gruvbox'
+Plug 'gruvbox-community/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -17,11 +32,6 @@ call plug#end()
 colorscheme gruvbox
 set bg=dark
 let g:airline_theme='gruvbox'
-
-"___ FILETYPE INDENTATION ___
-autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
-autocmd FileType html setlocal shiftwidth=2 tabstop=2
-autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
 
 " ___ FZF CONFIG ___
 " Ctrl+P: cari fil di direktori
