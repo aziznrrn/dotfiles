@@ -2,7 +2,7 @@
 set relativenumber
 set number
 set nohlsearch
-set noerrorbells
+set belloff=all
 set nowrap
 set smartcase
 set noswapfile
