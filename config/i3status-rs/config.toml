@@ -4,21 +4,24 @@ icons = "awesome"
 [[block]]
 block = "cpu"
 interval = 2
-format = "{utilization}%"
+format = "{utilization}"
 
 [[block]]
 block = "net"
-device = "wlan0"
-format = "{ssid} {speed_down}"
+device = "wlp1s0"
+format = "{ssid}"
 interval = 5
-use_bits = false
+
+[[block]]
+block = "sound"
+format = "{volume}"
 
 [[block]]
 block = "battery"
 interval = 10
-format = "{percentage}% {time}"
+format = "{percentage}"
 
 [[block]]
 block = "time"
 interval = 60
-format = "%a %d/%m %R"
+format = "%a %Y/%m/%d %I:%M %p | %j/365"
