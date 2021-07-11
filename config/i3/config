@@ -209,7 +209,7 @@ bar {
 }
 
 # set wallpaper
-exec_always feh --bg-scale /home/aziz/.wallpaper/eva5.jpg 
+exec_always feh --bg-scale /home/aziz/.wallpaper/nihilism.png 
 
 # i3lock
 bindsym $mod+Shift+x exec i3lock
@@ -229,5 +229,5 @@ bindsym $mod+t exec telegram-desktop
 # nautilus file manager
 bindsym $mod+n exec nautilus
 # brightness control
-bindsym XF86MonBrightnessUp exec light -A 5
-bindsym XF86MonBrightnessDown exec light -U 5
+bindsym XF86MonBrightnessUp exec light -A 3
+bindsym XF86MonBrightnessDown exec light -U 3
