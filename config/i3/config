@@ -209,10 +209,10 @@ bar {
 }
 
 # set wallpaper
-exec_always feh --bg-scale /home/aziz/.wallpaper/nihilism.png 
+exec_always feh --bg-fill --auto-zoom /home/aziz/.wallpaper/goat.jpg 
 
 # i3lock
-bindsym $mod+Shift+x exec i3lock
+bindsym $mod+Shift+x exec betterlockscreen -l 
 
 # hide border when floating
 hide_edge_borders vertical
