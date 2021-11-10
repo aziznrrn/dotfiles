@@ -13,3 +13,4 @@ Tools I use
 - [neovim](https://github.com/neovim/neovim)
 - [vim](https://github.com/vim/vim)
 - [vim-plug](https://github.com/junegunn/vim-plug)
+- [joni22u/rofi](https://github.com/joni22u/rofi)
